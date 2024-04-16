@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
-public class Endereço {
+public class Endereco {
 
 	/**
 	 * Os atributos desse modelo foram gerados automaticamente pelo site
@@ -29,12 +29,12 @@ public class Endereço {
 	private String siafi;
 	
 	
-	public Endereço() {
+	public Endereco() {
 		
 	}
 	
 	
-	public Endereço(String cep, String logradouro, String complemento, String bairro, String localidade, String uf,
+	public Endereco(String cep, String logradouro, String complemento, String bairro, String localidade, String uf,
 			String ibge, String gia, String ddd, String siafi) {
 		super();
 		this.cep = cep;
@@ -148,9 +148,5 @@ public class Endereço {
 	public void setSiafi(String siafi) {
 		this.siafi = siafi;
 	}
-	
-	
-	
-	
-	
+
 }
