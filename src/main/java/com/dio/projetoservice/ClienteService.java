@@ -2,9 +2,10 @@ package com.dio.projetoservice;
 
 import com.dio.projeto.model.Cliente;
 
+
 public interface ClienteService {
 	
-	public Iterable <Cliente> buscartodos ();
+	public Iterable <Cliente> buscarTodos ();
 
 	public Cliente buscarPorId(Long Id);
 	
